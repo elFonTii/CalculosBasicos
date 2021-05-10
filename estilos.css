@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    
+    
+}
+body{
+    background-image: linear-gradient(90deg, #ffffff 0, #e3f1f8 50%, #bed7e4 100%);
+}
+
+.result h4
+{
+    font-size: 20px;
+    text-align: center;
+    color:blueviolet;
+}
+.result h2
+{
+    font-size: 30px;
+    text-align: center;
+    color:blueviolet;
+}
+.titleText
+{
+padding-top: 10px;
+
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70px;
+height: 70px;
+}
+.mainContainer
+{
+float: left;
+}
+/*Estilo para el titulo principal*/
+h1{
+    font-size: 50px;
+    color: rgb(25, 132, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*Estilo para los subtitulos*/
+h4{
+    font-size: 16px;
+    color: rgb(50, 85, 161);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+h2{
+    font-size: 26px;
+    color: rgb(50, 85, 161);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+h3{
+    font-size: 5px;
+    color: rgb(50, 85, 161);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*Color de fondo*/
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Estilo para la letra de los resultados*/
+h5{
+    font-size: 25px;
+    color:  rgb(25, 132, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*Estilo para areas*/
+h6{
+    font-size: 20px;
+    color:  rgb(25, 132, 255);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*Estilo para las listas*/
+*{
+    padding: 0px;
+    margin: 0.1em;
+}
+
+/*Estilo para las operaciones basicas*/
+#contenedor1 {
+    margin: auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    color:rgb(33, 33, 33)
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(83, 83, 83);
+    border: none;
+    color: white;
+    padding: 2px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+button{
+    background-color: rgb(83, 83, 83);
+    border: none;
+    color: white;
+    padding: 2px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.select{
+    background-color: rgb(25, 132, 255);
+    align-items: center;
+    margin: 0 auto;
+}
+
+hr
+{
+padding: 1px;
+background-color:rgb(25, 132, 255);
+margin: 0px;
+}
+.result{
+    vertical-align: center;
+    margin:auto;
+    padding: 10em;
+    font-size: 5px;
+}
