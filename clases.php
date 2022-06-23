@@ -6,48 +6,42 @@ class Calculos{
     // Funcion - SUMA
     public static function sumar($num1,$num2)
     {
-        $suma=$num1+$num2;
-        return $suma;
+        return $num1+$num2;
     }
 
 
     // Funcion - RESTA
     public static function restar($num1,$num2)
     {
-        $resta=$num1-$num2;
-        return $resta;
+        return $num1-$num2;
     }
 
 
     // Funcion - MULTIPLICACIÓN
     public static function multiplicar($num1,$num2)
     {
-        $multiplicacion=$num1*$num2;
-        return $multiplicacion;
+        return $num1*$num2;
     }
 
 
     // Funcion - DIVISION
     public static function dividir($num1,$num2)
     {
-        $division=$num1/$num2;
-        return $division;
+        return $num1/$num2;
     }
 
 
     // Funcion - AREA DEL CUADRADO
     public static function areaCuadrado($lado)
     {
-        $areaC=$lado*$lado;
-        return $areaC;
+        return $lado*$lado;
     }
 
 
     // Funcion - AREA DEL RECTANGULO
     public static function areaRectangulo($largo,$ancho)
     {
-        $areaR=$largo*$ancho;
-        return $areaR;
+        return $largo*$ancho;
     }
     
 
@@ -86,6 +80,7 @@ class Calculos{
             print("Sus raices son: ".$x1." ".$x2);
 
         }
+        return [$x1, $x2];
     }
     
 
